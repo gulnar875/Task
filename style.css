@@ -1,0 +1,38 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: rgb(225, 239, 251);
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  min-width: 350px;
+  background-color: #fff;
+  box-shadow: 2px 1px 7px -1px #afafaf;
+  padding: 10px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+  text-transform: capitalize;
+  padding: 10px 5px;
+  font-weight: bolder;
+}
+
+ul li:hover {
+  background-color: rgb(202, 202, 202);
+}
